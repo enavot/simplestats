@@ -10,6 +10,7 @@ def mean(vals):
     return float(total)/length
 
 def median(vals):
+	"""This is a docstring that I'm adding.  hey, whadda ya know"""
     vals.sort()
     length = len(vals)
     index = length / 2
